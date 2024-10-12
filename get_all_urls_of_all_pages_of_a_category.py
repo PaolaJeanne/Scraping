@@ -22,6 +22,7 @@ def extract_category_page_urls(url):
 
     return page_urls
 
+
 category_url = 'https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html'  # Replace with your actual category URL
 all_page_urls = extract_category_page_urls(category_url)
 
