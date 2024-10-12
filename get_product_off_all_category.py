@@ -7,7 +7,6 @@ from urllib.parse import urljoin
 
 def extract_category_names_and_urls(url):
 
-
     response = requests.get(url)
     html_content = response.text
 
