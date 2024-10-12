@@ -68,6 +68,8 @@ def get_book_details(book_url):
     
     return csv_data
 
+# sauvegarde_dans_le_csv
+
 def save_to_csv(data, filename='books_scraped.csv'):
     file_exists = os.path.isfile(filename)
     
