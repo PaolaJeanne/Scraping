@@ -24,6 +24,8 @@ def extract_category_names_and_urls(url):
 
     return categories
 
+# enregistrement dans le csv
+
 url = 'https://books.toscrape.com/index.html'
 categories = extract_category_names_and_urls(url)
 
