@@ -28,7 +28,6 @@ def extract_category_urls(url):
 def extract_category_page_urls(url):
 
     page_urls = [url]  
-
     response = requests.get(url)
     html_content = response.text
 
