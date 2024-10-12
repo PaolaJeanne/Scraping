@@ -21,6 +21,7 @@ def extract_book_urls_from_a_page(url):
 
     return href_urls
 
+
 url = 'https://books.toscrape.com/index.html'
 href_urls = extract_book_urls_from_a_page(url)
 
